@@ -1,0 +1,65 @@
+/* Define custom colors */
+:root {
+    --primary-color: #5369E0;
+    --secondary-color: #9953E0;
+    --accent-color: #6B53E0;
+    --info-color: #5396E0;
+    --highlight-color: #C753E0;
+    --muted-color: #A99EE0;
+  }
+  
+  /* Override Bootstrap styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--muted-color);
+    color: #333;
+  }
+  
+  .navbar {
+    background-color: var(--info-color);
+    font-size: 20px;
+  }
+  
+  .navbar .nav-link {
+    color: var(--primary-color);
+  }
+  
+  .navbar .nav-link:hover {
+    color: var(--highlight-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
+  
+  .btn-outline-secondary {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+
+#cta {
+    background-color: var(--accent-color);
+}
+  
+  footer {
+    background-color: var(--accent-color);
+  }
+  
+  footer a {
+    color: var(--info-color);
+  }
+  
+  footer a:hover {
+    color: var(--highlight-color);
+  }
