@@ -7,6 +7,12 @@
     --highlight-color: #C753E0;
     --muted-color: #A99EE0;
   }
+
+  #about img {
+    width: 100%; /* Ensures responsiveness */
+    max-width: 300px; /* Limits the maximum size */
+    height: auto; /* Maintains aspect ratio */
+  }
   
   /* Override Bootstrap styles */
   body {
