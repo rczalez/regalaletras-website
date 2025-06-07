@@ -18,6 +18,7 @@
   "homepage": "https://github.com/rczalez/regalaletras-website#readme",
   "description": "",
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "express": "^5.1.0"
   }
 }
