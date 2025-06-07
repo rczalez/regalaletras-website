@@ -1,16 +1,23 @@
 {
   "name": "regalaletras-website",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rczalez/regalaletras-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rczalez/regalaletras-website/issues"
+  },
+  "homepage": "https://github.com/rczalez/regalaletras-website#readme",
+  "description": "",
   "dependencies": {
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
-    "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "express": "^5.1.0"
   }
 }
